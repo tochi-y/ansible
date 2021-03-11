@@ -1,6 +1,5 @@
 # Copyright FUJITSU LIMITED 2015-2017.
 
-- include: ./common.yml
 - include: ./tasks/common/config_cron.yml
 - include: ./tasks/common/init_ebs_volume.yml
   vars:
